@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #cc0000;
+  --color-primary-dark: #9e0000;
+  --color-secondary: #d4af37;
+  --color-secondary-container: #fcd400;
+  --color-surface: #f5f5f5;
+  --color-surface-container-low: #f3f3f3;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #1a1c1c;
+  --color-on-surface-variant: #5e3f3a;
+  --color-gov-gold: #FCD400;
+  
+  --font-headline: "Public Sans", sans-serif;
+  --font-body: "Public Sans", sans-serif;
+  --font-label: "Public Sans", sans-serif;
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    line-height: 1;
+  }
+  .authority-gradient {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  }
+  .gov-header-gradient {
+    background: linear-gradient(135deg, #cc0000 0%, #b30000 100%);
+  }
+  .gold-accent {
+    color: var(--color-secondary);
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  background-color: var(--color-surface);
+  -webkit-tap-highlight-color: transparent;
+}
