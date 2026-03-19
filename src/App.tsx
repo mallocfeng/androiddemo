@@ -34,7 +34,7 @@ export default function App() {
       </header>
 
       {/* Main Content */}
-      <div className="pt-[calc(4rem+env(safe-area-inset-top)+12px)] pb-[calc(4rem+env(safe-area-inset-bottom))]">
+      <div className="pt-[calc(4rem+env(safe-area-inset-top))] pb-[calc(4rem+env(safe-area-inset-bottom))]">
         {renderContent()}
       </div>
 

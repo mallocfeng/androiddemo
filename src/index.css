@@ -33,7 +33,7 @@
     color: var(--color-secondary);
   }
   .pt-safe {
-    padding-top: calc(env(safe-area-inset-top) + 12px);
+    padding-top: env(safe-area-inset-top);
   }
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom);
