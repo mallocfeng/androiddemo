@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <main className="pt-20 pb-24 px-6 max-w-5xl mx-auto space-y-10">
+    <main className="py-6 px-6 max-w-5xl mx-auto space-y-10">
       {/* Search Anchor Section */}
       <section className="relative">
         <div className="flex flex-col gap-1 mb-6">

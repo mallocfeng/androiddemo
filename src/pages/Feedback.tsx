@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Feedback() {
   return (
-    <main className="pt-24 pb-32 px-6 max-w-7xl mx-auto">
+    <main className="py-6 px-6 max-w-7xl mx-auto">
       {/* Authority Header */}
       <section className="mb-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">

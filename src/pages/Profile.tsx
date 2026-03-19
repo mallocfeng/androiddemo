@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Profile() {
   return (
-    <main className="pt-20 pb-32 px-4 max-w-4xl mx-auto space-y-6">
+    <main className="py-6 px-4 max-w-4xl mx-auto space-y-6">
       {/* User Profile Header Section */}
       <section className="relative overflow-hidden rounded-xl gov-header-gradient p-8 shadow-lg border-b-4 border-gov-gold/30">
         <div className="absolute top-0 right-0 p-4 opacity-10 pointer-events-none">

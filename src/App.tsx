@@ -18,9 +18,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-surface pb-16">
+    <div className="min-h-screen bg-surface">
       {/* Top App Bar */}
-      <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-primary/10 shadow-sm">
+      <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-primary/10 shadow-sm pt-safe">
         <div className="flex items-center justify-between px-6 h-16 w-full max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-primary">
             <span className="material-symbols-outlined text-2xl">account_balance</span>
@@ -34,7 +34,7 @@ export default function App() {
       </header>
 
       {/* Main Content */}
-      <div className="pt-16">
+      <div className="pt-[calc(4rem+env(safe-area-inset-top)+12px)] pb-[calc(4rem+env(safe-area-inset-bottom))]">
         {renderContent()}
       </div>
 

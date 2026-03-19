@@ -32,6 +32,9 @@
   .gold-accent {
     color: var(--color-secondary);
   }
+  .pt-safe {
+    padding-top: calc(env(safe-area-inset-top) + 12px);
+  }
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom);
   }

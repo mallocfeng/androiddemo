@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Services() {
   return (
-    <main className="pt-16 pb-24 space-y-8">
+    <main className="py-6 space-y-8">
       {/* Search & Authority Banner */}
       <section className="authority-gradient px-6 py-10 relative overflow-hidden">
         <div className="absolute top-0 right-0 opacity-10 pointer-events-none translate-x-10 -translate-y-10">
